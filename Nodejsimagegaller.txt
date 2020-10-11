@@ -1,0 +1,232 @@
+1.npm init -y 
+2.npm i express multer express-handlebars mongoose
+3.npm i --save-dev nodemon
+4.chng & Add start script :chng in main index.js to app.js,
+"start":"nodemon app.js"
+5.create starting file app.js
+6.in this file import and initialize express like this...
+const express = require('express')
+
+const app = express()
+
+app.listen(5000,() =>{
+    console.log("Server is listening on port 5000")
+})
+7.then make rout home route :app.get('/', (req,res) => {
+    res.send("hello world")   {Tips: req means only that url '/'}
+})
+8.now import & initialize middleware:const exphbs = require('express-handlebars')
+app.engine("handlebars",exphbs()):name or invoke
+app.set("view engine","handlebars"):set extension
+
+after this middleware you not send :app.get('/', (req,res) => {
+    res.render("home"):file
+})
+9.then create folder or file views/home.handlebars
+or inside view layouts/main.handlebars
+10.inside main.handlebars create layout or initialize:<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Image Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    {{{body}}}
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>
+
+11.in home file:<div class="container">
+    <br>
+    <h1 class="text-center">Node.js Image Gallery</h1>
+    <br>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="Select Image">Select Image:</label>
+            <input type="file" name="image" class="form-control" required id="">
+        </div>
+        <br>
+        <div class="form-group">
+            <button class="btn btn-block btn-danger">
+                Upload Image
+            </button>
+        </div>
+    </form>
+</div>
+
+12.outside of view folder create folder or file : public\images
+
+13.tell nodeapp that we will store images on this folder so we write piece of code in app.js an meadleware :app.use(express.static('public/images'))
+
+14.import multer independancy:const multer = require  ('multer')
+  and now code paste of how can upload images by multer:
+
+var Storage = multer.diskStorage({
+  destination: function (req, file, callback) {
+    callback(null, "./public/images");
+  },
+  filename: function (req, file, callback) {
+    callback(null, file.fieldname + "_" + Date.now() + "_" + file.originalname);
+  },
+});
+
+var upload = multer({
+  storage: Storage,
+}).single("image"); //Field name and max count
+
+app.get('/', (req,res) => {
+    res.render("home")
+})
+
+
+
+15.now make a route for this:app.post("/", (req, res) => {
+    upload(req, res, function (err) {
+      if (err) {
+        console.log(err);
+        return res.end("Something went wrong")
+      } else {
+        console.log(req.file.path)       
+      }
+    })
+  })
+
+
+16.create models where we storing images for mongodb & create file upload.js
+
+:const mongoose = require('mongoose')
+
+mongoose.connect("mongodb+srv://demonew:<password>@cluster0.yw73h.mongodb.net/<imagesDB>?retryWrites=true&w=majority",{
+    useNewUrlParser:true,
+    useUnifiedTopology:true
+})
+
+
+var db = mongoose.connection
+
+db.on('error',console.error.bind(console,'connection error'))
+
+db.once('open', function callback(){
+    console.log("db connected")
+})
+
+
+var uploadSchema = new mongoose.Schema({
+    imagename:String
+})
+
+var uploadModel = mongoose.model('image',uploadSchema)
+
+model.exports = uploadModel
+
+
+
+17.now added on app.js :const imageModel = require('./models/upload')
+now use it in under post'/' : 
+var filename = req.file.filename
+var imageDetails = new imageModel({
+	imagename:filename
+})
+
+imageDetails.save(function(err,doc){
+   if(err) throw err;
+
+   
+})
+
+18.now first u create a var on top imageData & use model func imageModel.find({})
+:const imageData = imageModel.find({}) then excute imageData:imageData.exec() excute methode its fetch all the records from the table & this also return call back also first is err second is data
+:imageDetails.save(function(err,doc){
+                if(err) throw err;
+
+                imageData.exec(function(err,data){
+                    if(err) throw err;
+
+                    res.render('home',{records:data,success:true})
+                })
+
+            })
+for this happen we have to chng in home.handlebars file
+
+
+
+19.add this:{{#if success}}
+
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">
+                &times; 
+            </a>
+            <strong>Success!</strong>Your image file is uploaded
+        </div>
+
+    {{/if}}
+
+
+&
+
+    {{#each records}}  {tips:*ngFor this of records}
+
+    {{#each this}}
+
+    <img src="{{this.imagename}}" class="img-thumbnal" style="width:100%;" alt="">
+
+    {{/each}}
+
+    {{/each}}
+
+
+All look like:
+<div class="container">
+    <br>
+    <h1 class="text-center">Node.js Image Gallery</h1>
+    <br>
+
+    {{#if success}}
+
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">
+                &times; 
+            </a>
+            <strong>Success!</strong>Your image file is uploaded
+        </div>
+
+    {{/if}}
+    
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="Select Image">Select Image:</label>
+            <input type="file" name="image" class="form-control" required id="">
+        </div>
+        <br>
+        <div class="form-group">
+            <button class="btn btn-block btn-danger">
+                Upload Image
+            </button>
+        </div>
+    </form>
+
+    {{#each records}}
+
+    {{#each this}}
+
+    <img src="{{this.imagename}}" class="img-thumbnal" style="width:100%;" alt="">
+
+    {{/each}}
+
+    {{/each}}
+</div>
+
+
+20.now when u upload the image then all show but when u refresh page not so u go to home route and add
+: res.render('home',{records:data}) :old( res.render('home') or u can do this:
+app.get('/', (req,res) => {
+    imageData.exec(function(err,data){
+        if(err) throw err;
+
+        res.render('home',{records:data})
+    })
+})
