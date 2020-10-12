@@ -18,6 +18,8 @@ let storage= multer.diskStorage({
 })
 let upload = multer({ storage: storage }).single("Image"); //Field name and max count
 
+const port = process.env.PORT ||8080;
+
 mongoose.connect(
   process.env.DB_CONNECT,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
@@ -282,6 +284,6 @@ app.post("/server/uploadContactUs", async (req, res) =>{
 });
 
 /***** */
-app.listen(8080, () => {
+app.listen(port, () => {
   console.log("app listeing on port:8080");
 })
