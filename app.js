@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const path = require("path");
 const multer = require("multer");
 const dotenv = require("dotenv");
 
@@ -18,7 +19,7 @@ let storage= multer.diskStorage({
 })
 let upload = multer({ storage: storage }).single("Image"); //Field name and max count
 
-const port = process.env.PORT ||8080;
+let port = process.env.PORT ||8080;
 
 mongoose.connect(
   process.env.DB_CONNECT,
@@ -36,6 +37,7 @@ let app = express()
 app.use(cors());
 app.use(express.json()) 
 app.use("/myimages", express.static("attach"))
+app.use(express.static(path.join(__dirname, 'dist/photogallery')))
 
 
 
