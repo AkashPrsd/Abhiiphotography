@@ -292,5 +292,5 @@ app.listen(port, () => {
 })
 // git add .
 //git commit -m 'abhiiphotography'
-//>git push heroku master
+//git push heroku master
 //heroku open

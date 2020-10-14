@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
-/***/ "../../$$_lazy_route_resource lazy recursive":
-/*!*****************************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/$$_lazy_route_resource lazy namespace object ***!
-  \*****************************************************************************************************/
+/***/ "./$$_lazy_route_resource lazy recursive":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19,35 +19,35 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = "../../$$_lazy_route_resource lazy recursive";
+webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
-/***/ "../../src/app/app-routing.module.ts":
-/*!**************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/app-routing.module.ts ***!
-  \**************************************************************************************/
+/***/ "./src/app/app-routing.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
 /*! exports provided: AppRoutingModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
-/* harmony import */ var _index_home_home_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index/home/home.component */ "../../src/app/index/home/home.component.ts");
-/* harmony import */ var _index_about_about_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index/about/about.component */ "../../src/app/index/about/about.component.ts");
-/* harmony import */ var _index_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index/contact/contact.component */ "../../src/app/index/contact/contact.component.ts");
-/* harmony import */ var _index_fashion_fashion_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index/fashion/fashion.component */ "../../src/app/index/fashion/fashion.component.ts");
-/* harmony import */ var _index_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index/blog/blog.component */ "../../src/app/index/blog/blog.component.ts");
-/* harmony import */ var _notfound_notfound_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./notfound/notfound.component */ "../../src/app/notfound/notfound.component.ts");
-/* harmony import */ var _index_index_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./index/index.component */ "../../src/app/index/index.component.ts");
-/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "../../src/app/dashboard/dashboard.component.ts");
-/* harmony import */ var _dashboard_addhome_addhome_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./dashboard/addhome/addhome.component */ "../../src/app/dashboard/addhome/addhome.component.ts");
-/* harmony import */ var _details_details_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./details/details.component */ "../../src/app/details/details.component.ts");
-/* harmony import */ var _dashboard_editform_editform_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./dashboard/editform/editform.component */ "../../src/app/dashboard/editform/editform.component.ts");
-/* harmony import */ var _dashboard_updateform_updateform_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./dashboard/updateform/updateform.component */ "../../src/app/dashboard/updateform/updateform.component.ts");
-/* harmony import */ var _index_portraits_portraits_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./index/portraits/portraits.component */ "../../src/app/index/portraits/portraits.component.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _index_home_home_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index/home/home.component */ "./src/app/index/home/home.component.ts");
+/* harmony import */ var _index_about_about_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index/about/about.component */ "./src/app/index/about/about.component.ts");
+/* harmony import */ var _index_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index/contact/contact.component */ "./src/app/index/contact/contact.component.ts");
+/* harmony import */ var _index_fashion_fashion_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index/fashion/fashion.component */ "./src/app/index/fashion/fashion.component.ts");
+/* harmony import */ var _index_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index/blog/blog.component */ "./src/app/index/blog/blog.component.ts");
+/* harmony import */ var _notfound_notfound_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./notfound/notfound.component */ "./src/app/notfound/notfound.component.ts");
+/* harmony import */ var _index_index_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./index/index.component */ "./src/app/index/index.component.ts");
+/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var _dashboard_addhome_addhome_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./dashboard/addhome/addhome.component */ "./src/app/dashboard/addhome/addhome.component.ts");
+/* harmony import */ var _details_details_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./details/details.component */ "./src/app/details/details.component.ts");
+/* harmony import */ var _dashboard_editform_editform_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./dashboard/editform/editform.component */ "./src/app/dashboard/editform/editform.component.ts");
+/* harmony import */ var _dashboard_updateform_updateform_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./dashboard/updateform/updateform.component */ "./src/app/dashboard/updateform/updateform.component.ts");
+/* harmony import */ var _index_portraits_portraits_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./index/portraits/portraits.component */ "./src/app/index/portraits/portraits.component.ts");
 
 
 
@@ -105,18 +105,18 @@ AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
 
 /***/ }),
 
-/***/ "../../src/app/app.component.ts":
-/*!*********************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/app.component.ts ***!
-  \*********************************************************************************/
+/***/ "./src/app/app.component.ts":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
 /*! exports provided: AppComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
 
 
@@ -141,39 +141,39 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
 
 /***/ }),
 
-/***/ "../../src/app/app.module.ts":
-/*!******************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/app.module.ts ***!
-  \******************************************************************************/
+/***/ "./src/app/app.module.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
 /*! exports provided: AppModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "../../node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../../node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "../../src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "../../src/app/app.component.ts");
-/* harmony import */ var _index_about_about_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index/about/about.component */ "../../src/app/index/about/about.component.ts");
-/* harmony import */ var _index_blog_blog_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./index/blog/blog.component */ "../../src/app/index/blog/blog.component.ts");
-/* harmony import */ var _index_contact_contact_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./index/contact/contact.component */ "../../src/app/index/contact/contact.component.ts");
-/* harmony import */ var _index_fashion_fashion_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./index/fashion/fashion.component */ "../../src/app/index/fashion/fashion.component.ts");
-/* harmony import */ var _index_portraits_portraits_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./index/portraits/portraits.component */ "../../src/app/index/portraits/portraits.component.ts");
-/* harmony import */ var _index_footer_footer_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./index/footer/footer.component */ "../../src/app/index/footer/footer.component.ts");
-/* harmony import */ var _index_home_home_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./index/home/home.component */ "../../src/app/index/home/home.component.ts");
-/* harmony import */ var _index_header_header_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./index/header/header.component */ "../../src/app/index/header/header.component.ts");
-/* harmony import */ var _index_index_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./index/index.component */ "../../src/app/index/index.component.ts");
-/* harmony import */ var _notfound_notfound_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./notfound/notfound.component */ "../../src/app/notfound/notfound.component.ts");
-/* harmony import */ var ng_circle_progress__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ng-circle-progress */ "../../node_modules/ng-circle-progress/__ivy_ngcc__/fesm2015/ng-circle-progress.js");
-/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "../../src/app/dashboard/dashboard.component.ts");
-/* harmony import */ var _dashboard_addhome_addhome_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./dashboard/addhome/addhome.component */ "../../src/app/dashboard/addhome/addhome.component.ts");
-/* harmony import */ var _details_details_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./details/details.component */ "../../src/app/details/details.component.ts");
-/* harmony import */ var _dashboard_editform_editform_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./dashboard/editform/editform.component */ "../../src/app/dashboard/editform/editform.component.ts");
-/* harmony import */ var _dashboard_updateform_updateform_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./dashboard/updateform/updateform.component */ "../../src/app/dashboard/updateform/updateform.component.ts");
-/* harmony import */ var _index_contact_count_count_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./index/contact/count/count.component */ "../../src/app/index/contact/count/count.component.ts");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _index_about_about_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index/about/about.component */ "./src/app/index/about/about.component.ts");
+/* harmony import */ var _index_blog_blog_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./index/blog/blog.component */ "./src/app/index/blog/blog.component.ts");
+/* harmony import */ var _index_contact_contact_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./index/contact/contact.component */ "./src/app/index/contact/contact.component.ts");
+/* harmony import */ var _index_fashion_fashion_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./index/fashion/fashion.component */ "./src/app/index/fashion/fashion.component.ts");
+/* harmony import */ var _index_portraits_portraits_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./index/portraits/portraits.component */ "./src/app/index/portraits/portraits.component.ts");
+/* harmony import */ var _index_footer_footer_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./index/footer/footer.component */ "./src/app/index/footer/footer.component.ts");
+/* harmony import */ var _index_home_home_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./index/home/home.component */ "./src/app/index/home/home.component.ts");
+/* harmony import */ var _index_header_header_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./index/header/header.component */ "./src/app/index/header/header.component.ts");
+/* harmony import */ var _index_index_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./index/index.component */ "./src/app/index/index.component.ts");
+/* harmony import */ var _notfound_notfound_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./notfound/notfound.component */ "./src/app/notfound/notfound.component.ts");
+/* harmony import */ var ng_circle_progress__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ng-circle-progress */ "./node_modules/ng-circle-progress/__ivy_ngcc__/fesm2015/ng-circle-progress.js");
+/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var _dashboard_addhome_addhome_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./dashboard/addhome/addhome.component */ "./src/app/dashboard/addhome/addhome.component.ts");
+/* harmony import */ var _details_details_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./details/details.component */ "./src/app/details/details.component.ts");
+/* harmony import */ var _dashboard_editform_editform_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./dashboard/editform/editform.component */ "./src/app/dashboard/editform/editform.component.ts");
+/* harmony import */ var _dashboard_updateform_updateform_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./dashboard/updateform/updateform.component */ "./src/app/dashboard/updateform/updateform.component.ts");
+/* harmony import */ var _index_contact_count_count_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./index/contact/count/count.component */ "./src/app/index/contact/count/count.component.ts");
 
 
 
@@ -287,19 +287,19 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
 
 /***/ }),
 
-/***/ "../../src/app/dashboard/addhome/addhome.component.ts":
-/*!*******************************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/dashboard/addhome/addhome.component.ts ***!
-  \*******************************************************************************************************/
+/***/ "./src/app/dashboard/addhome/addhome.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/dashboard/addhome/addhome.component.ts ***!
+  \********************************************************/
 /*! exports provided: AddhomeComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddhomeComponent", function() { return AddhomeComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "../../node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
-/* harmony import */ var src_app_service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/home.service */ "../../src/app/service/home.service.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var src_app_service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/home.service */ "./src/app/service/home.service.ts");
 
 
 
@@ -542,20 +542,20 @@ AddhomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
 
 /***/ }),
 
-/***/ "../../src/app/dashboard/dashboard.component.ts":
-/*!*************************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/dashboard/dashboard.component.ts ***!
-  \*************************************************************************************************/
+/***/ "./src/app/dashboard/dashboard.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/dashboard/dashboard.component.ts ***!
+  \**************************************************/
 /*! exports provided: DashboardComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardComponent", function() { return DashboardComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _index_header_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../index/header/header.component */ "../../src/app/index/header/header.component.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
-/* harmony import */ var _index_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../index/footer/footer.component */ "../../src/app/index/footer/footer.component.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _index_header_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../index/header/header.component */ "./src/app/index/header/header.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _index_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../index/footer/footer.component */ "./src/app/index/footer/footer.component.ts");
 
 
 
@@ -613,22 +613,22 @@ DashboardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
 
 /***/ }),
 
-/***/ "../../src/app/dashboard/editform/editform.component.ts":
-/*!*********************************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/dashboard/editform/editform.component.ts ***!
-  \*********************************************************************************************************/
+/***/ "./src/app/dashboard/editform/editform.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/dashboard/editform/editform.component.ts ***!
+  \**********************************************************/
 /*! exports provided: EditformComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditformComponent", function() { return EditformComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "../../node_modules/rxjs/_esm2015/operators/index.js");
-/* harmony import */ var _service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../service/home.service */ "../../src/app/service/home.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var _service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../service/home.service */ "./src/app/service/home.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
 
 
@@ -1049,21 +1049,21 @@ EditformComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
 
 /***/ }),
 
-/***/ "../../src/app/dashboard/updateform/updateform.component.ts":
-/*!*************************************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/dashboard/updateform/updateform.component.ts ***!
-  \*************************************************************************************************************/
+/***/ "./src/app/dashboard/updateform/updateform.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/dashboard/updateform/updateform.component.ts ***!
+  \**************************************************************/
 /*! exports provided: UpdateformComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UpdateformComponent", function() { return UpdateformComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "../../node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
-/* harmony import */ var _service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../service/home.service */ "../../src/app/service/home.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../service/home.service */ "./src/app/service/home.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
 
 
@@ -1282,20 +1282,20 @@ UpdateformComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
 
 /***/ }),
 
-/***/ "../../src/app/details/details.component.ts":
-/*!*********************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/details/details.component.ts ***!
-  \*********************************************************************************************/
+/***/ "./src/app/details/details.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/details/details.component.ts ***!
+  \**********************************************/
 /*! exports provided: DetailsComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DetailsComponent", function() { return DetailsComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _service_home_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../service/home.service */ "../../src/app/service/home.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _service_home_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../service/home.service */ "./src/app/service/home.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
 
 
@@ -1493,18 +1493,18 @@ DetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
 
 /***/ }),
 
-/***/ "../../src/app/index/about/about.component.ts":
-/*!***********************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/about/about.component.ts ***!
-  \***********************************************************************************************/
+/***/ "./src/app/index/about/about.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/index/about/about.component.ts ***!
+  \************************************************/
 /*! exports provided: AboutComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
 
 
@@ -1623,17 +1623,17 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
 
 /***/ }),
 
-/***/ "../../src/app/index/blog/blog.component.ts":
-/*!*********************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/blog/blog.component.ts ***!
-  \*********************************************************************************************/
+/***/ "./src/app/index/blog/blog.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/index/blog/blog.component.ts ***!
+  \**********************************************/
 /*! exports provided: BlogComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogComponent", function() { return BlogComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
 
 class BlogComponent {
@@ -1704,21 +1704,21 @@ BlogComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
 
 /***/ }),
 
-/***/ "../../src/app/index/contact/contact.component.ts":
-/*!***************************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/contact/contact.component.ts ***!
-  \***************************************************************************************************/
+/***/ "./src/app/index/contact/contact.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/index/contact/contact.component.ts ***!
+  \****************************************************/
 /*! exports provided: ContactComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return ContactComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "../../node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
-/* harmony import */ var src_app_service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/home.service */ "../../src/app/service/home.service.ts");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var _count_count_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./count/count.component */ "../../src/app/index/contact/count/count.component.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var src_app_service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/service/home.service */ "./src/app/service/home.service.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _count_count_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./count/count.component */ "./src/app/index/contact/count/count.component.ts");
 
 
 
@@ -1920,17 +1920,17 @@ ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
 
 /***/ }),
 
-/***/ "../../src/app/index/contact/count/count.component.ts":
-/*!*******************************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/contact/count/count.component.ts ***!
-  \*******************************************************************************************************/
+/***/ "./src/app/index/contact/count/count.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/index/contact/count/count.component.ts ***!
+  \********************************************************/
 /*! exports provided: CountComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CountComponent", function() { return CountComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
 
 class CountComponent {
@@ -1962,21 +1962,21 @@ CountComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
 
 /***/ }),
 
-/***/ "../../src/app/index/fashion/fashion.component.ts":
-/*!***************************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/fashion/fashion.component.ts ***!
-  \***************************************************************************************************/
+/***/ "./src/app/index/fashion/fashion.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/index/fashion/fashion.component.ts ***!
+  \****************************************************/
 /*! exports provided: FashionComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FashionComponent", function() { return FashionComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "../../node_modules/rxjs/_esm2015/operators/index.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
 
 
@@ -2173,17 +2173,17 @@ FashionComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
 
 /***/ }),
 
-/***/ "../../src/app/index/footer/footer.component.ts":
-/*!*************************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/footer/footer.component.ts ***!
-  \*************************************************************************************************/
+/***/ "./src/app/index/footer/footer.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/index/footer/footer.component.ts ***!
+  \**************************************************/
 /*! exports provided: FooterComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
 
 class FooterComponent {
@@ -2258,18 +2258,18 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
 
 /***/ }),
 
-/***/ "../../src/app/index/header/header.component.ts":
-/*!*************************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/header/header.component.ts ***!
-  \*************************************************************************************************/
+/***/ "./src/app/index/header/header.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/index/header/header.component.ts ***!
+  \**************************************************/
 /*! exports provided: HeaderComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
 
 
@@ -2365,22 +2365,22 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
 
 /***/ }),
 
-/***/ "../../src/app/index/home/home.component.ts":
-/*!*********************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/home/home.component.ts ***!
-  \*********************************************************************************************/
+/***/ "./src/app/index/home/home.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/index/home/home.component.ts ***!
+  \**********************************************/
 /*! exports provided: HomeComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "../../node_modules/rxjs/_esm2015/operators/index.js");
-/* harmony import */ var _service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../service/home.service */ "../../src/app/service/home.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var _service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../service/home.service */ "./src/app/service/home.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
 
 
@@ -2667,20 +2667,20 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
 
 /***/ }),
 
-/***/ "../../src/app/index/index.component.ts":
-/*!*****************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/index.component.ts ***!
-  \*****************************************************************************************/
+/***/ "./src/app/index/index.component.ts":
+/*!******************************************!*\
+  !*** ./src/app/index/index.component.ts ***!
+  \******************************************/
 /*! exports provided: IndexComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IndexComponent", function() { return IndexComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header/header.component */ "../../src/app/index/header/header.component.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer/footer.component */ "../../src/app/index/footer/footer.component.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header/header.component */ "./src/app/index/header/header.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/index/footer/footer.component.ts");
 
 
 
@@ -2710,21 +2710,21 @@ IndexComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
 
 /***/ }),
 
-/***/ "../../src/app/index/portraits/portraits.component.ts":
-/*!*******************************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/portraits/portraits.component.ts ***!
-  \*******************************************************************************************************/
+/***/ "./src/app/index/portraits/portraits.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/index/portraits/portraits.component.ts ***!
+  \********************************************************/
 /*! exports provided: PortraitsComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PortraitsComponent", function() { return PortraitsComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "../../node_modules/rxjs/_esm2015/operators/index.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
 
 
@@ -2921,18 +2921,18 @@ PortraitsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
 
 /***/ }),
 
-/***/ "../../src/app/notfound/notfound.component.ts":
-/*!***********************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/notfound/notfound.component.ts ***!
-  \***********************************************************************************************/
+/***/ "./src/app/notfound/notfound.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/notfound/notfound.component.ts ***!
+  \************************************************/
 /*! exports provided: NotfoundComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotfoundComponent", function() { return NotfoundComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
 
 
@@ -2980,19 +2980,19 @@ NotfoundComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
 
 /***/ }),
 
-/***/ "../../src/app/service/home.service.ts":
-/*!****************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/service/home.service.ts ***!
-  \****************************************************************************************/
+/***/ "./src/app/service/home.service.ts":
+/*!*****************************************!*\
+  !*** ./src/app/service/home.service.ts ***!
+  \*****************************************/
 /*! exports provided: HomeService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeService", function() { return HomeService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
 
 
@@ -3056,10 +3056,10 @@ HomeService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
 
 /***/ }),
 
-/***/ "../../src/environments/environment.ts":
-/*!****************************************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/environments/environment.ts ***!
-  \****************************************************************************************/
+/***/ "./src/environments/environment.ts":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
 /*! exports provided: environment */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3084,19 +3084,19 @@ const environment = {
 
 /***/ }),
 
-/***/ "../../src/main.ts":
-/*!********************************************************************!*\
-  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/main.ts ***!
-  \********************************************************************/
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ "../../src/environments/environment.ts");
-/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "../../src/app/app.module.ts");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ "../../node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
 
 
 
@@ -3111,13 +3111,13 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /***/ }),
 
 /***/ 0:
-/*!**************************************************************************!*\
-  !*** multi D:/New folder/Nodejsimagegallery/deploy/frontend/src/main.ts ***!
-  \**************************************************************************/
+/*!***************************!*\
+  !*** multi ./src/main.ts ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\New folder\Nodejsimagegallery\deploy\frontend\src\main.ts */"../../src/main.ts");
+module.exports = __webpack_require__(/*! D:\New folder\Nodejsimagegallery\deploy\frontend\src\main.ts */"./src/main.ts");
 
 
 /***/ })
