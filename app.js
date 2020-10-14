@@ -290,3 +290,7 @@ app.post("/server/uploadContactUs", async (req, res) =>{
 app.listen(port, () => {
   console.log("app listeing on port:8080");
 })
+// git add .
+//git commit -m 'abhiiphotography'
+//>git push heroku master
+//heroku open
