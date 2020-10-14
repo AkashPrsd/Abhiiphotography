@@ -66,17 +66,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: 'https://abhiiphotograher.herokuapp.com', component: _index_index_component__WEBPACK_IMPORTED_MODULE_8__["IndexComponent"],
+    { path: '', component: _index_index_component__WEBPACK_IMPORTED_MODULE_8__["IndexComponent"],
         children: [
             { path: '', redirectTo: 'home', pathMatch: 'full' },
-            { path: 'https://abhiiphotograher.herokuapp.com/home', component: _index_home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"] },
-            { path: 'https://abhiiphotograher.herokuapp.com/about', component: _index_about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"] },
-            { path: 'https://abhiiphotograher.herokuapp.com/contact', component: _index_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"] },
-            { path: 'https://abhiiphotograher.herokuapp.com/portraits', component: _index_portraits_portraits_component__WEBPACK_IMPORTED_MODULE_14__["PortraitsComponent"] },
-            { path: 'https://abhiiphotograher.herokuapp.com/fashion', component: _index_fashion_fashion_component__WEBPACK_IMPORTED_MODULE_5__["FashionComponent"] },
-            { path: 'https://abhiiphotograher.herokuapp.com/blog', component: _index_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"] },
+            { path: 'home', component: _index_home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"] },
+            { path: 'about', component: _index_about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"] },
+            { path: 'contact', component: _index_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"] },
+            { path: 'portraits', component: _index_portraits_portraits_component__WEBPACK_IMPORTED_MODULE_14__["PortraitsComponent"] },
+            { path: 'fashion', component: _index_fashion_fashion_component__WEBPACK_IMPORTED_MODULE_5__["FashionComponent"] },
+            { path: 'blog', component: _index_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"] },
         ] },
-    { path: 'https://abhiiphotograher.herokuapp.com/admin', component: _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_9__["DashboardComponent"],
+    { path: 'admin', component: _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_9__["DashboardComponent"],
         children: [
             { path: '', redirectTo: 'addhome', pathMatch: 'full' },
             { path: 'addhome', component: _dashboard_addhome_addhome_component__WEBPACK_IMPORTED_MODULE_10__["AddhomeComponent"] },
@@ -2402,7 +2402,7 @@ function HomeComponent_div_9_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", data_r5._id);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r5.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r5.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 } }
 function HomeComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 11);
@@ -2492,7 +2492,7 @@ class HomeComponent {
         this.imgservice = imgservice;
         this.router = router;
         this.http = http;
-        this.url = "http://localhost:8080/";
+        this.url = "https://abhiiphotograher.herokuapp.com/";
     }
     ngOnInit() {
         //  this.imgservice.getuploadImg()
@@ -3001,7 +3001,7 @@ class HomeService {
     constructor(http, router) {
         this.http = http;
         this.router = router;
-        this.url = "http://localhost:8080/";
+        this.url = "https://abhiiphotograher.herokuapp.com/";
     }
     uploadImg(data) {
         console.log(data);

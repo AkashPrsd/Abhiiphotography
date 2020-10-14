@@ -146,33 +146,33 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./src/app/index/portraits/portraits.component.ts");
 
     var routes = [{
-      path: 'https://abhiiphotograher.herokuapp.com',
+      path: '',
       component: _index_index_component__WEBPACK_IMPORTED_MODULE_8__["IndexComponent"],
       children: [{
         path: '',
         redirectTo: 'home',
         pathMatch: 'full'
       }, {
-        path: 'https://abhiiphotograher.herokuapp.com/home',
+        path: 'home',
         component: _index_home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"]
       }, {
-        path: 'https://abhiiphotograher.herokuapp.com/about',
+        path: 'about',
         component: _index_about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"]
       }, {
-        path: 'https://abhiiphotograher.herokuapp.com/contact',
+        path: 'contact',
         component: _index_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"]
       }, {
-        path: 'https://abhiiphotograher.herokuapp.com/portraits',
+        path: 'portraits',
         component: _index_portraits_portraits_component__WEBPACK_IMPORTED_MODULE_14__["PortraitsComponent"]
       }, {
-        path: 'https://abhiiphotograher.herokuapp.com/fashion',
+        path: 'fashion',
         component: _index_fashion_fashion_component__WEBPACK_IMPORTED_MODULE_5__["FashionComponent"]
       }, {
-        path: 'https://abhiiphotograher.herokuapp.com/blog',
+        path: 'blog',
         component: _index_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"]
       }]
     }, {
-      path: 'https://abhiiphotograher.herokuapp.com/admin',
+      path: 'admin',
       component: _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_9__["DashboardComponent"],
       children: [{
         path: '',
@@ -4897,7 +4897,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r5.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r5.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -5092,7 +5092,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.imgservice = imgservice;
         this.router = router;
         this.http = http;
-        this.url = "http://localhost:8080/";
+        this.url = "https://abhiiphotograher.herokuapp.com/";
       }
 
       _createClass(HomeComponent, [{
@@ -6104,7 +6104,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         this.http = http;
         this.router = router;
-        this.url = "http://localhost:8080/";
+        this.url = "https://abhiiphotograher.herokuapp.com/";
       }
 
       _createClass(HomeService, [{
