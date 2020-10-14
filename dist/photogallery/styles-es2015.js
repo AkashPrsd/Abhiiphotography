@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
-/***/ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/animate.css/animate.min.css":
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src??embedded!./node_modules/animate.css/animate.min.css ***!
-  \*******************************************************************************************************************************************************************************************/
+/***/ "../../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../node_modules/postcss-loader/src/index.js?!../../node_modules/animate.css/animate.min.css":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/postcss-loader/src??embedded!D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/animate.css/animate.min.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11,10 +11,10 @@ module.exports = [[module.i, "\n@charset \"UTF-8\";\n/*!\n * animate.css - https
 
 /***/ }),
 
-/***/ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/bootstrap/dist/css/bootstrap.css":
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src??embedded!./node_modules/bootstrap/dist/css/bootstrap.css ***!
-  \************************************************************************************************************************************************************************************************/
+/***/ "../../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../node_modules/postcss-loader/src/index.js?!../../node_modules/bootstrap/dist/css/bootstrap.css":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/postcss-loader/src??embedded!D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/bootstrap/dist/css/bootstrap.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22,10 +22,10 @@ module.exports = [[module.i, "/*!\n * Bootstrap v4.5.2 (https://getbootstrap.com
 
 /***/ }),
 
-/***/ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./src/styles.css":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src??embedded!./src/styles.css ***!
-  \*****************************************************************************************************************************************************************/
+/***/ "../../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../node_modules/postcss-loader/src/index.js?!../../src/styles.css":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/postcss-loader/src??embedded!D:/New folder/Nodejsimagegallery/deploy/frontend/src/styles.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -33,14 +33,14 @@ module.exports = [[module.i, "/* You can add global styles to this file, and als
 
 /***/ }),
 
-/***/ "./node_modules/animate.css/animate.min.css":
-/*!**************************************************!*\
-  !*** ./node_modules/animate.css/animate.min.css ***!
-  \**************************************************/
+/***/ "../../node_modules/animate.css/animate.min.css":
+/*!*************************************************************************************************!*\
+  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/animate.css/animate.min.css ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../postcss-loader/src??embedded!./animate.min.css */ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/animate.css/animate.min.css");
+var content = __webpack_require__(/*! !../@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../postcss-loader/src??embedded!./animate.min.css */ "../../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../node_modules/postcss-loader/src/index.js?!../../node_modules/animate.css/animate.min.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -51,7 +51,7 @@ var options = {}
 options.insert = "head";
 options.singleton = false;
 
-var update = __webpack_require__(/*! ../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+var update = __webpack_require__(/*! ../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
 
 if (content.locals) {
   module.exports = content.locals;
@@ -60,14 +60,14 @@ if (content.locals) {
 
 /***/ }),
 
-/***/ "./node_modules/bootstrap/dist/css/bootstrap.css":
-/*!*******************************************************!*\
-  !*** ./node_modules/bootstrap/dist/css/bootstrap.css ***!
-  \*******************************************************/
+/***/ "../../node_modules/bootstrap/dist/css/bootstrap.css":
+/*!******************************************************************************************************!*\
+  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/bootstrap/dist/css/bootstrap.css ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../../../@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../../postcss-loader/src??embedded!./bootstrap.css */ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/bootstrap/dist/css/bootstrap.css");
+var content = __webpack_require__(/*! !../../../@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../../postcss-loader/src??embedded!./bootstrap.css */ "../../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../node_modules/postcss-loader/src/index.js?!../../node_modules/bootstrap/dist/css/bootstrap.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -78,7 +78,7 @@ var options = {}
 options.insert = "head";
 options.singleton = false;
 
-var update = __webpack_require__(/*! ../../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+var update = __webpack_require__(/*! ../../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
 
 if (content.locals) {
   module.exports = content.locals;
@@ -87,10 +87,10 @@ if (content.locals) {
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \****************************************************************************/
+/***/ "../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!***************************************************************************************************************************!*\
+  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \***************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -380,14 +380,14 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ "./src/styles.css":
-/*!************************!*\
-  !*** ./src/styles.css ***!
-  \************************/
+/***/ "../../src/styles.css":
+/*!***********************************************************************!*\
+  !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/styles.css ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../node_modules/postcss-loader/src??embedded!./styles.css */ "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./src/styles.css");
+var content = __webpack_require__(/*! !../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../node_modules/postcss-loader/src??embedded!./styles.css */ "../../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../node_modules/postcss-loader/src/index.js?!../../src/styles.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -398,7 +398,7 @@ var options = {}
 options.insert = "head";
 options.singleton = false;
 
-var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
 
 if (content.locals) {
   module.exports = content.locals;
@@ -408,15 +408,15 @@ if (content.locals) {
 /***/ }),
 
 /***/ 3:
-/*!*************************************************************************************************************************!*\
-  !*** multi ./node_modules/bootstrap/dist/css/bootstrap.css ./src/styles.css ./node_modules/animate.css/animate.min.css ***!
-  \*************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/bootstrap/dist/css/bootstrap.css D:/New folder/Nodejsimagegallery/deploy/frontend/src/styles.css D:/New folder/Nodejsimagegallery/deploy/frontend/node_modules/animate.css/animate.min.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\New folder\Nodejsimagegallery\deploy\frontend\node_modules\bootstrap\dist\css\bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
-__webpack_require__(/*! D:\New folder\Nodejsimagegallery\deploy\frontend\src\styles.css */"./src/styles.css");
-module.exports = __webpack_require__(/*! D:\New folder\Nodejsimagegallery\deploy\frontend\node_modules\animate.css\animate.min.css */"./node_modules/animate.css/animate.min.css");
+__webpack_require__(/*! D:\New folder\Nodejsimagegallery\deploy\frontend\node_modules\bootstrap\dist\css\bootstrap.css */"../../node_modules/bootstrap/dist/css/bootstrap.css");
+__webpack_require__(/*! D:\New folder\Nodejsimagegallery\deploy\frontend\src\styles.css */"../../src/styles.css");
+module.exports = __webpack_require__(/*! D:\New folder\Nodejsimagegallery\deploy\frontend\node_modules\animate.css\animate.min.css */"../../node_modules/animate.css/animate.min.css");
 
 
 /***/ })

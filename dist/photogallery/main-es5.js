@@ -6,10 +6,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
   /***/
-  "./$$_lazy_route_resource lazy recursive":
-  /*!******************************************************!*\
-    !*** ./$$_lazy_route_resource lazy namespace object ***!
-    \******************************************************/
+  "../../$$_lazy_route_resource lazy recursive":
+  /*!*****************************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/$$_lazy_route_resource lazy namespace object ***!
+    \*****************************************************************************************************/
 
   /*! no static exports found */
 
@@ -31,15 +31,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
     module.exports = webpackEmptyAsyncContext;
-    webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+    webpackEmptyAsyncContext.id = "../../$$_lazy_route_resource lazy recursive";
     /***/
   },
 
   /***/
-  "./src/app/app-routing.module.ts":
-  /*!***************************************!*\
-    !*** ./src/app/app-routing.module.ts ***!
-    \***************************************/
+  "../../src/app/app-routing.module.ts":
+  /*!**************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/app-routing.module.ts ***!
+    \**************************************************************************************/
 
   /*! exports provided: AppRoutingModule */
 
@@ -59,91 +59,91 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
     /* harmony import */
 
 
     var _index_home_home_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! ./index/home/home.component */
-    "./src/app/index/home/home.component.ts");
+    "../../src/app/index/home/home.component.ts");
     /* harmony import */
 
 
     var _index_about_about_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ./index/about/about.component */
-    "./src/app/index/about/about.component.ts");
+    "../../src/app/index/about/about.component.ts");
     /* harmony import */
 
 
     var _index_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./index/contact/contact.component */
-    "./src/app/index/contact/contact.component.ts");
+    "../../src/app/index/contact/contact.component.ts");
     /* harmony import */
 
 
     var _index_fashion_fashion_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./index/fashion/fashion.component */
-    "./src/app/index/fashion/fashion.component.ts");
+    "../../src/app/index/fashion/fashion.component.ts");
     /* harmony import */
 
 
     var _index_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./index/blog/blog.component */
-    "./src/app/index/blog/blog.component.ts");
+    "../../src/app/index/blog/blog.component.ts");
     /* harmony import */
 
 
     var _notfound_notfound_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./notfound/notfound.component */
-    "./src/app/notfound/notfound.component.ts");
+    "../../src/app/notfound/notfound.component.ts");
     /* harmony import */
 
 
     var _index_index_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./index/index.component */
-    "./src/app/index/index.component.ts");
+    "../../src/app/index/index.component.ts");
     /* harmony import */
 
 
     var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./dashboard/dashboard.component */
-    "./src/app/dashboard/dashboard.component.ts");
+    "../../src/app/dashboard/dashboard.component.ts");
     /* harmony import */
 
 
     var _dashboard_addhome_addhome_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ./dashboard/addhome/addhome.component */
-    "./src/app/dashboard/addhome/addhome.component.ts");
+    "../../src/app/dashboard/addhome/addhome.component.ts");
     /* harmony import */
 
 
     var _details_details_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ./details/details.component */
-    "./src/app/details/details.component.ts");
+    "../../src/app/details/details.component.ts");
     /* harmony import */
 
 
     var _dashboard_editform_editform_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
     /*! ./dashboard/editform/editform.component */
-    "./src/app/dashboard/editform/editform.component.ts");
+    "../../src/app/dashboard/editform/editform.component.ts");
     /* harmony import */
 
 
     var _dashboard_updateform_updateform_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
     /*! ./dashboard/updateform/updateform.component */
-    "./src/app/dashboard/updateform/updateform.component.ts");
+    "../../src/app/dashboard/updateform/updateform.component.ts");
     /* harmony import */
 
 
     var _index_portraits_portraits_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
     /*! ./index/portraits/portraits.component */
-    "./src/app/index/portraits/portraits.component.ts");
+    "../../src/app/index/portraits/portraits.component.ts");
 
     var routes = [{
       path: '',
@@ -239,10 +239,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/app.component.ts":
-  /*!**********************************!*\
-    !*** ./src/app/app.component.ts ***!
-    \**********************************/
+  "../../src/app/app.component.ts":
+  /*!*********************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/app.component.ts ***!
+    \*********************************************************************************/
 
   /*! exports provided: AppComponent */
 
@@ -262,13 +262,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
     var AppComponent = function AppComponent() {
       _classCallCheck(this, AppComponent);
@@ -310,10 +310,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/app.module.ts":
-  /*!*******************************!*\
-    !*** ./src/app/app.module.ts ***!
-    \*******************************/
+  "../../src/app/app.module.ts":
+  /*!******************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/app.module.ts ***!
+    \******************************************************************************/
 
   /*! exports provided: AppModule */
 
@@ -333,139 +333,139 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/platform-browser */
-    "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
+    "../../node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/common/http */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
     /* harmony import */
 
 
     var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/forms */
-    "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+    "../../node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
     /* harmony import */
 
 
     var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./app-routing.module */
-    "./src/app/app-routing.module.ts");
+    "../../src/app/app-routing.module.ts");
     /* harmony import */
 
 
     var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./app.component */
-    "./src/app/app.component.ts");
+    "../../src/app/app.component.ts");
     /* harmony import */
 
 
     var _index_about_about_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./index/about/about.component */
-    "./src/app/index/about/about.component.ts");
+    "../../src/app/index/about/about.component.ts");
     /* harmony import */
 
 
     var _index_blog_blog_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./index/blog/blog.component */
-    "./src/app/index/blog/blog.component.ts");
+    "../../src/app/index/blog/blog.component.ts");
     /* harmony import */
 
 
     var _index_contact_contact_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./index/contact/contact.component */
-    "./src/app/index/contact/contact.component.ts");
+    "../../src/app/index/contact/contact.component.ts");
     /* harmony import */
 
 
     var _index_fashion_fashion_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./index/fashion/fashion.component */
-    "./src/app/index/fashion/fashion.component.ts");
+    "../../src/app/index/fashion/fashion.component.ts");
     /* harmony import */
 
 
     var _index_portraits_portraits_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ./index/portraits/portraits.component */
-    "./src/app/index/portraits/portraits.component.ts");
+    "../../src/app/index/portraits/portraits.component.ts");
     /* harmony import */
 
 
     var _index_footer_footer_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ./index/footer/footer.component */
-    "./src/app/index/footer/footer.component.ts");
+    "../../src/app/index/footer/footer.component.ts");
     /* harmony import */
 
 
     var _index_home_home_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
     /*! ./index/home/home.component */
-    "./src/app/index/home/home.component.ts");
+    "../../src/app/index/home/home.component.ts");
     /* harmony import */
 
 
     var _index_header_header_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
     /*! ./index/header/header.component */
-    "./src/app/index/header/header.component.ts");
+    "../../src/app/index/header/header.component.ts");
     /* harmony import */
 
 
     var _index_index_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
     /*! ./index/index.component */
-    "./src/app/index/index.component.ts");
+    "../../src/app/index/index.component.ts");
     /* harmony import */
 
 
     var _notfound_notfound_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
     /*! ./notfound/notfound.component */
-    "./src/app/notfound/notfound.component.ts");
+    "../../src/app/notfound/notfound.component.ts");
     /* harmony import */
 
 
     var ng_circle_progress__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
     /*! ng-circle-progress */
-    "./node_modules/ng-circle-progress/__ivy_ngcc__/fesm2015/ng-circle-progress.js");
+    "../../node_modules/ng-circle-progress/__ivy_ngcc__/fesm2015/ng-circle-progress.js");
     /* harmony import */
 
 
     var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
     /*! ./dashboard/dashboard.component */
-    "./src/app/dashboard/dashboard.component.ts");
+    "../../src/app/dashboard/dashboard.component.ts");
     /* harmony import */
 
 
     var _dashboard_addhome_addhome_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
     /*! ./dashboard/addhome/addhome.component */
-    "./src/app/dashboard/addhome/addhome.component.ts");
+    "../../src/app/dashboard/addhome/addhome.component.ts");
     /* harmony import */
 
 
     var _details_details_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! ./details/details.component */
-    "./src/app/details/details.component.ts");
+    "../../src/app/details/details.component.ts");
     /* harmony import */
 
 
     var _dashboard_editform_editform_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
     /*! ./dashboard/editform/editform.component */
-    "./src/app/dashboard/editform/editform.component.ts");
+    "../../src/app/dashboard/editform/editform.component.ts");
     /* harmony import */
 
 
     var _dashboard_updateform_updateform_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
     /*! ./dashboard/updateform/updateform.component */
-    "./src/app/dashboard/updateform/updateform.component.ts");
+    "../../src/app/dashboard/updateform/updateform.component.ts");
     /* harmony import */
 
 
     var _index_contact_count_count_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
     /*! ./index/contact/count/count.component */
-    "./src/app/index/contact/count/count.component.ts");
+    "../../src/app/index/contact/count/count.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
@@ -526,10 +526,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/dashboard/addhome/addhome.component.ts":
-  /*!********************************************************!*\
-    !*** ./src/app/dashboard/addhome/addhome.component.ts ***!
-    \********************************************************/
+  "../../src/app/dashboard/addhome/addhome.component.ts":
+  /*!*******************************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/dashboard/addhome/addhome.component.ts ***!
+    \*******************************************************************************************************/
 
   /*! exports provided: AddhomeComponent */
 
@@ -549,19 +549,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/forms */
-    "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+    "../../node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
     /* harmony import */
 
 
     var src_app_service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! src/app/service/home.service */
-    "./src/app/service/home.service.ts");
+    "../../src/app/service/home.service.ts");
 
     var AddhomeComponent =
     /*#__PURE__*/
@@ -1020,10 +1020,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/dashboard/dashboard.component.ts":
-  /*!**************************************************!*\
-    !*** ./src/app/dashboard/dashboard.component.ts ***!
-    \**************************************************/
+  "../../src/app/dashboard/dashboard.component.ts":
+  /*!*************************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/dashboard/dashboard.component.ts ***!
+    \*************************************************************************************************/
 
   /*! exports provided: DashboardComponent */
 
@@ -1043,25 +1043,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _index_header_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! ../index/header/header.component */
-    "./src/app/index/header/header.component.ts");
+    "../../src/app/index/header/header.component.ts");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
     /* harmony import */
 
 
     var _index_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ../index/footer/footer.component */
-    "./src/app/index/footer/footer.component.ts");
+    "../../src/app/index/footer/footer.component.ts");
 
     var DashboardComponent =
     /*#__PURE__*/
@@ -1175,10 +1175,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/dashboard/editform/editform.component.ts":
-  /*!**********************************************************!*\
-    !*** ./src/app/dashboard/editform/editform.component.ts ***!
-    \**********************************************************/
+  "../../src/app/dashboard/editform/editform.component.ts":
+  /*!*********************************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/dashboard/editform/editform.component.ts ***!
+    \*********************************************************************************************************/
 
   /*! exports provided: EditformComponent */
 
@@ -1198,37 +1198,37 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! rxjs/operators */
-    "./node_modules/rxjs/_esm2015/operators/index.js");
+    "../../node_modules/rxjs/_esm2015/operators/index.js");
     /* harmony import */
 
 
     var _service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! ../../service/home.service */
-    "./src/app/service/home.service.ts");
+    "../../src/app/service/home.service.ts");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
     /* harmony import */
 
 
     var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/common/http */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
     /* harmony import */
 
 
     var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
     function EditformComponent_tr_19_td_7_Template(rf, ctx) {
       if (rf & 1) {
@@ -2084,10 +2084,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/dashboard/updateform/updateform.component.ts":
-  /*!**************************************************************!*\
-    !*** ./src/app/dashboard/updateform/updateform.component.ts ***!
-    \**************************************************************/
+  "../../src/app/dashboard/updateform/updateform.component.ts":
+  /*!*************************************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/dashboard/updateform/updateform.component.ts ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: UpdateformComponent */
 
@@ -2107,31 +2107,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/forms */
-    "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+    "../../node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
     /* harmony import */
 
 
     var _service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! ../../service/home.service */
-    "./src/app/service/home.service.ts");
+    "../../src/app/service/home.service.ts");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
     /* harmony import */
 
 
     var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
     function UpdateformComponent_div_12_Template(rf, ctx) {
       if (rf & 1) {
@@ -2570,10 +2570,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/details/details.component.ts":
-  /*!**********************************************!*\
-    !*** ./src/app/details/details.component.ts ***!
-    \**********************************************/
+  "../../src/app/details/details.component.ts":
+  /*!*********************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/details/details.component.ts ***!
+    \*********************************************************************************************/
 
   /*! exports provided: DetailsComponent */
 
@@ -2593,25 +2593,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _service_home_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! ../service/home.service */
-    "./src/app/service/home.service.ts");
+    "../../src/app/service/home.service.ts");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
     /* harmony import */
 
 
     var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
     function DetailsComponent_span_3_Template(rf, ctx) {
       if (rf & 1) {
@@ -2990,10 +2990,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/index/about/about.component.ts":
-  /*!************************************************!*\
-    !*** ./src/app/index/about/about.component.ts ***!
-    \************************************************/
+  "../../src/app/index/about/about.component.ts":
+  /*!***********************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/about/about.component.ts ***!
+    \***********************************************************************************************/
 
   /*! exports provided: AboutComponent */
 
@@ -3013,13 +3013,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
     var AboutComponent =
     /*#__PURE__*/
@@ -3259,10 +3259,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/index/blog/blog.component.ts":
-  /*!**********************************************!*\
-    !*** ./src/app/index/blog/blog.component.ts ***!
-    \**********************************************/
+  "../../src/app/index/blog/blog.component.ts":
+  /*!*********************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/blog/blog.component.ts ***!
+    \*********************************************************************************************/
 
   /*! exports provided: BlogComponent */
 
@@ -3282,7 +3282,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
     var BlogComponent =
     /*#__PURE__*/
@@ -3427,10 +3427,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/index/contact/contact.component.ts":
-  /*!****************************************************!*\
-    !*** ./src/app/index/contact/contact.component.ts ***!
-    \****************************************************/
+  "../../src/app/index/contact/contact.component.ts":
+  /*!***************************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/contact/contact.component.ts ***!
+    \***************************************************************************************************/
 
   /*! exports provided: ContactComponent */
 
@@ -3450,31 +3450,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/forms */
-    "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+    "../../node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
     /* harmony import */
 
 
     var src_app_service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! src/app/service/home.service */
-    "./src/app/service/home.service.ts");
+    "../../src/app/service/home.service.ts");
     /* harmony import */
 
 
     var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
     /* harmony import */
 
 
     var _count_count_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./count/count.component */
-    "./src/app/index/contact/count/count.component.ts");
+    "../../src/app/index/contact/count/count.component.ts");
 
     var _c0 = ["frm"];
 
@@ -3850,10 +3850,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/index/contact/count/count.component.ts":
-  /*!********************************************************!*\
-    !*** ./src/app/index/contact/count/count.component.ts ***!
-    \********************************************************/
+  "../../src/app/index/contact/count/count.component.ts":
+  /*!*******************************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/contact/count/count.component.ts ***!
+    \*******************************************************************************************************/
 
   /*! exports provided: CountComponent */
 
@@ -3873,7 +3873,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
     var CountComponent =
     /*#__PURE__*/
@@ -3942,10 +3942,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/index/fashion/fashion.component.ts":
-  /*!****************************************************!*\
-    !*** ./src/app/index/fashion/fashion.component.ts ***!
-    \****************************************************/
+  "../../src/app/index/fashion/fashion.component.ts":
+  /*!***************************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/fashion/fashion.component.ts ***!
+    \***************************************************************************************************/
 
   /*! exports provided: FashionComponent */
 
@@ -3965,31 +3965,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! rxjs/operators */
-    "./node_modules/rxjs/_esm2015/operators/index.js");
+    "../../node_modules/rxjs/_esm2015/operators/index.js");
     /* harmony import */
 
 
     var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/common/http */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
     /* harmony import */
 
 
     var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
     var _c0 = ["h1"];
 
@@ -4025,7 +4025,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r36.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r36.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -4079,7 +4079,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r41.image2, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r41.image2, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -4133,7 +4133,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r46.image3, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r46.image3, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -4187,7 +4187,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r51.image4, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r51.image4, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -4216,7 +4216,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, FashionComponent);
 
         this.http = http;
-        this.url = "http://localhost:8080/";
+        this.url = "https://abhiiphotograher.herokuapp.com/";
       }
 
       _createClass(FashionComponent, [{
@@ -4407,10 +4407,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/index/footer/footer.component.ts":
-  /*!**************************************************!*\
-    !*** ./src/app/index/footer/footer.component.ts ***!
-    \**************************************************/
+  "../../src/app/index/footer/footer.component.ts":
+  /*!*************************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/footer/footer.component.ts ***!
+    \*************************************************************************************************/
 
   /*! exports provided: FooterComponent */
 
@@ -4430,7 +4430,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
     var FooterComponent =
     /*#__PURE__*/
@@ -4585,10 +4585,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/index/header/header.component.ts":
-  /*!**************************************************!*\
-    !*** ./src/app/index/header/header.component.ts ***!
-    \**************************************************/
+  "../../src/app/index/header/header.component.ts":
+  /*!*************************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/header/header.component.ts ***!
+    \*************************************************************************************************/
 
   /*! exports provided: HeaderComponent */
 
@@ -4608,13 +4608,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
     var HeaderComponent =
     /*#__PURE__*/
@@ -4808,10 +4808,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/index/home/home.component.ts":
-  /*!**********************************************!*\
-    !*** ./src/app/index/home/home.component.ts ***!
-    \**********************************************/
+  "../../src/app/index/home/home.component.ts":
+  /*!*********************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/home/home.component.ts ***!
+    \*********************************************************************************************/
 
   /*! exports provided: HomeComponent */
 
@@ -4831,37 +4831,37 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! rxjs/operators */
-    "./node_modules/rxjs/_esm2015/operators/index.js");
+    "../../node_modules/rxjs/_esm2015/operators/index.js");
     /* harmony import */
 
 
     var _service_home_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! ../../service/home.service */
-    "./src/app/service/home.service.ts");
+    "../../src/app/service/home.service.ts");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
     /* harmony import */
 
 
     var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/common/http */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
     /* harmony import */
 
 
     var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
     var _c0 = ["h1"];
 
@@ -4951,7 +4951,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r12.image2, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r12.image2, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -5005,7 +5005,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r18.image3, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r18.image3, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -5059,7 +5059,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r23.image4, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r23.image4, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -5368,10 +5368,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/index/index.component.ts":
-  /*!******************************************!*\
-    !*** ./src/app/index/index.component.ts ***!
-    \******************************************/
+  "../../src/app/index/index.component.ts":
+  /*!*****************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/index.component.ts ***!
+    \*****************************************************************************************/
 
   /*! exports provided: IndexComponent */
 
@@ -5391,25 +5391,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _header_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! ./header/header.component */
-    "./src/app/index/header/header.component.ts");
+    "../../src/app/index/header/header.component.ts");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
     /* harmony import */
 
 
     var _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ./footer/footer.component */
-    "./src/app/index/footer/footer.component.ts");
+    "../../src/app/index/footer/footer.component.ts");
 
     var IndexComponent =
     /*#__PURE__*/
@@ -5466,10 +5466,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/index/portraits/portraits.component.ts":
-  /*!********************************************************!*\
-    !*** ./src/app/index/portraits/portraits.component.ts ***!
-    \********************************************************/
+  "../../src/app/index/portraits/portraits.component.ts":
+  /*!*******************************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/index/portraits/portraits.component.ts ***!
+    \*******************************************************************************************************/
 
   /*! exports provided: PortraitsComponent */
 
@@ -5489,31 +5489,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! rxjs/operators */
-    "./node_modules/rxjs/_esm2015/operators/index.js");
+    "../../node_modules/rxjs/_esm2015/operators/index.js");
     /* harmony import */
 
 
     var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/common/http */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
     /* harmony import */
 
 
     var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
     var _c0 = ["h1"];
 
@@ -5549,7 +5549,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r138.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r138.image, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -5603,7 +5603,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r143.image2, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r143.image2, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -5657,7 +5657,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r148.image3, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r148.image3, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -5711,7 +5711,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "http://localhost:8080/myimages/", data_r153.image4, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "https://abhiiphotograher.herokuapp.com/myimages/", data_r153.image4, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
       }
     }
 
@@ -5740,7 +5740,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, PortraitsComponent);
 
         this.http = http;
-        this.url = "http://localhost:8080/";
+        this.url = "https://abhiiphotograher.herokuapp.com/";
       }
 
       _createClass(PortraitsComponent, [{
@@ -5931,10 +5931,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/notfound/notfound.component.ts":
-  /*!************************************************!*\
-    !*** ./src/app/notfound/notfound.component.ts ***!
-    \************************************************/
+  "../../src/app/notfound/notfound.component.ts":
+  /*!***********************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/notfound/notfound.component.ts ***!
+    \***********************************************************************************************/
 
   /*! exports provided: NotfoundComponent */
 
@@ -5954,13 +5954,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
     var NotfoundComponent =
     /*#__PURE__*/
@@ -6059,10 +6059,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/service/home.service.ts":
-  /*!*****************************************!*\
-    !*** ./src/app/service/home.service.ts ***!
-    \*****************************************/
+  "../../src/app/service/home.service.ts":
+  /*!****************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/app/service/home.service.ts ***!
+    \****************************************************************************************/
 
   /*! exports provided: HomeService */
 
@@ -6082,19 +6082,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/common/http */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+    "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
     /* harmony import */
 
 
     var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    "../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 
     var HomeService =
     /*#__PURE__*/
@@ -6204,10 +6204,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/environments/environment.ts":
-  /*!*****************************************!*\
-    !*** ./src/environments/environment.ts ***!
-    \*****************************************/
+  "../../src/environments/environment.ts":
+  /*!****************************************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/environments/environment.ts ***!
+    \****************************************************************************************/
 
   /*! exports provided: environment */
 
@@ -6242,10 +6242,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/main.ts":
-  /*!*********************!*\
-    !*** ./src/main.ts ***!
-    \*********************/
+  "../../src/main.ts":
+  /*!********************************************************************!*\
+    !*** D:/New folder/Nodejsimagegallery/deploy/frontend/src/main.ts ***!
+    \********************************************************************/
 
   /*! no exports provided */
 
@@ -6259,25 +6259,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /* harmony import */
 
 
     var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! ./environments/environment */
-    "./src/environments/environment.ts");
+    "../../src/environments/environment.ts");
     /* harmony import */
 
 
     var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! ./app/app.module */
-    "./src/app/app.module.ts");
+    "../../src/app/app.module.ts");
     /* harmony import */
 
 
     var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/platform-browser */
-    "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
+    "../../node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
 
     if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].production) {
       Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
@@ -6292,9 +6292,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   0:
-  /*!***************************!*\
-    !*** multi ./src/main.ts ***!
-    \***************************/
+  /*!**************************************************************************!*\
+    !*** multi D:/New folder/Nodejsimagegallery/deploy/frontend/src/main.ts ***!
+    \**************************************************************************/
 
   /*! no static exports found */
 
@@ -6302,7 +6302,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
     /*! D:\New folder\Nodejsimagegallery\deploy\frontend\src\main.ts */
-    "./src/main.ts");
+    "../../src/main.ts");
     /***/
   }
 }, [[0, "runtime", "vendor"]]]);
