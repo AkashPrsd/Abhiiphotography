@@ -280,7 +280,9 @@ app.post("/server/uploadContactUs", async (req, res) =>{
   }
 });
 
+const port = process.env.port;
+
 /***** */
-app.listen(8080, () => {
+app.listen(port, () => {
   console.log("app listeing on port:8080");
 })
