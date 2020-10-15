@@ -48,7 +48,7 @@ app.get('**', (req, res) =>{
    const port = process.env.port || 8080;
   
    
-   const server = app.listen(port, () => {
+ app.listen(port, () => {
      console.log("app listeing on port:", port);
    })  
 /*app.get("/server/getuploadImg", function(req, res) {
