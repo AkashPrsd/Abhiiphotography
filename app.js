@@ -22,6 +22,10 @@ let upload = multer({ storage: storage }).single("Image"); //Field name and max 
 let port = process.env.port || 8080;
 let url = process.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
 
+app.listen(port, () => {
+  console.log("app listeing on port:", port);
+})
+
 mongoose.connect(
   process.env.DB_CONNECT ,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
@@ -290,9 +294,6 @@ app.post("/server/uploadContactUs", async (req, res) =>{
 });
 
 /***** */
-app.listen(port, () => {
-  console.log("app listeing on port:", port);
-})
 // git add .
 //git commit -m 'abhiiphotography'
 //git push heroku master
