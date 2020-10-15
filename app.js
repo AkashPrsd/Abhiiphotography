@@ -19,12 +19,7 @@ let storage= multer.diskStorage({
 })
 let upload = multer({ storage: storage }).single("Image"); //Field name and max count
 
-let port = process.env.port || 8080;
-let url = process.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
 
-app.listen(port, () => {
-  console.log("app listeing on port:", port);
-})
 
 mongoose.connect(
   process.env.DB_CONNECT ,
@@ -45,10 +40,17 @@ app.use("/myimages", express.static("attach"))
 app.use(express.static(path.join(__dirname, './dist/photogallery')));
 app.use('/', express.static(path.join(__dirname, './dist/photogallery')));
 
-app.get('*', (req, res) =>{
+app.get('**', (req, res) =>{
      res.sendFile(path.join(__dirname, './dist/photogallery/index.html'));
    });//short method
 
+
+   let port = process.env.PORT || 8080;
+   let url = process.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
+   
+   app.listen(port, () => {
+     console.log("app listeing on port:", port);
+   })  
 /*app.get("/server/getuploadImg", function(req, res) {
   imgModel.find({}, function(err, data) {
     if (err) throw err;
