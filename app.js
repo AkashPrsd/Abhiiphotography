@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const path = require("path");
 const multer = require("multer");
 const dotenv = require("dotenv");
 
@@ -18,6 +19,8 @@ let storage= multer.diskStorage({
 })
 let upload = multer({ storage: storage }).single("Image"); //Field name and max count
 
+let url = process.env.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
+
 mongoose.connect(
   process.env.DB_CONNECT,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
@@ -34,6 +37,9 @@ let app = express()
 app.use(cors());
 app.use(express.json()) 
 app.use("/myimages", express.static("attach"))
+app.use(express.static(path.join(__dirname, './dist/photogallery')))
+app.use('/', express.static(path.join(__dirname, './dist/photogallery')))
+
 
 
 /*app.get("/server/getuploadImg", function(req, res) {
@@ -47,6 +53,10 @@ app.use("/myimages", express.static("attach"))
   const data = await imgModel.find();
      res.send({ data: data });
    });//short method*/
+
+   app.get("*", (req, res) =>{
+       res.sendFile(path.join(__dirname, './dist/photogallery/index.html'));
+     });//short method
 
 app.get("/server/getuploadImg", async (req, res) =>{
   const data = await imgModel.find();
@@ -284,5 +294,9 @@ const port = process.env.port;
 
 /***** */
 app.listen(port, () => {
-  console.log("app listeing on port:8080");
+  console.log("app listeing on port:",port);
 })
+// git add .
+//git commit -m 'abhiiphotography'
+//git push heroku master
+//heroku open
