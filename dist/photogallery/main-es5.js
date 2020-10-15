@@ -6104,7 +6104,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         this.http = http;
         this.router = router;
-        this.url = "https://abhiiphotograher.herokuapp.com/";
+        this.url = "http://localhost:8080/";
       }
 
       _createClass(HomeService, [{

@@ -3001,7 +3001,7 @@ class HomeService {
     constructor(http, router) {
         this.http = http;
         this.router = router;
-        this.url = "https://abhiiphotograher.herokuapp.com/";
+        this.url = "http://localhost:8080/";
     }
     uploadImg(data) {
         console.log(data);
