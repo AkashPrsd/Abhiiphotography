@@ -45,10 +45,10 @@ app.get('**', (req, res) =>{
    });//short method
 
 
-   let port = process.env.PORT || 8080;
-   let url = process.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
+   const port = process.env.port || 8080;
+  
    
-   app.listen(port, () => {
+   const server = app.listen(port, () => {
      console.log("app listeing on port:", port);
    })  
 /*app.get("/server/getuploadImg", function(req, res) {
