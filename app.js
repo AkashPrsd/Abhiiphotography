@@ -23,7 +23,7 @@ let port = process.env.PORT ||8080;
 let url = process.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
 
 mongoose.connect(
-  process.env.DB_CONNECT ,
+  process.env.url ,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
   ()=> console.log('connected to db'));
 
