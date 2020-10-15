@@ -21,6 +21,8 @@ let upload = multer({ storage: storage }).single("Image"); //Field name and max 
 
 let url = process.env.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
 
+const port = process.env.PORT || 8080;
+
 mongoose.connect(
   process.env.DB_CONNECT,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
@@ -290,7 +292,6 @@ app.post("/server/uploadContactUs", async (req, res) =>{
   }
 });
 
-const port = process.env.PORT || 8080;
 /***** */
 app.listen(port, () => {
   console.log("app listeing on port:8080");
