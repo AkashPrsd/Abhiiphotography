@@ -38,9 +38,12 @@ let app = express()
 app.use(cors());
 app.use(express.json()) 
 app.use("/myimages", express.static("attach"))
-app.use(express.static(path.join(__dirname, 'dist/photogallery')))
+app.use(express.static(path.join(__dirname, './dist/photogallery')));
+app.use('/', express.static(path.join(__dirname, './dist/photogallery')));
 
-
+app.get('*', (req, res) =>{
+     res.sendFile(path.join(__dirname, './dist/photogallery/index.html'));
+   });//short method
 
 /*app.get("/server/getuploadImg", function(req, res) {
   imgModel.find({}, function(err, data) {
