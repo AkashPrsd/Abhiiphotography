@@ -56,7 +56,7 @@ app.use('/', express.static(path.join(__dirname, './dist/photogallery')))
    });//short method*/
 
    app.get("**", (req, res) =>{
-       res.sendFile(path.join(__dirname, 'dist/photogallery/index.html'));
+       res.sendFile(path.join(__dirname, './dist/photogallery/index.html'));
      });//short method
 
 app.get("/server/getuploadImg", async (req, res) =>{
