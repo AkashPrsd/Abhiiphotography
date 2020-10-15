@@ -19,7 +19,7 @@ let storage= multer.diskStorage({
 })
 let upload = multer({ storage: storage }).single("Image"); //Field name and max count
 
-let url = process.env.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
+let url = process.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
 
 mongoose.Promise = global.Promise;
 mongoose.connect(
