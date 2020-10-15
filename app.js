@@ -4,8 +4,7 @@ const cors = require("cors");
 const path = require("path");
 const multer = require("multer");
 const dotenv = require("dotenv");
-const http = require('http');
-const server = http.createServer(app);
+
 
 let DIR = './attach';
 dotenv.config();
@@ -32,7 +31,6 @@ mongoose.connect(
 // Import models
 let imgModel = require("./model/image");
 let contactModel= require("./model/ContactInfo");
-const { Server } = require("http");
 
 //const bodyParser = require("body-parser");
 
@@ -59,7 +57,7 @@ app.use('/', express.static(path.join(__dirname, './dist/photogallery')))
    });//short method*/
 
    app.get("*", (req, res) =>{
-       res.sendFile(path.resolve(__dirname, './dist/photogallery/index.html'));
+       res.sendFile(path.join(__dirname, './dist/photogallery/index.html'));
      });//short method
 
 app.get("/server/getuploadImg", async (req, res) =>{
@@ -295,7 +293,7 @@ app.post("/server/uploadContactUs", async (req, res) =>{
 });
 
 /***** */
-Server.listen(port, () => {
+app.listen(port, () => {
   console.log("app listeing on port:8080");
 })
 // git add .
