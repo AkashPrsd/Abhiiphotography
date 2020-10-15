@@ -24,7 +24,6 @@ process.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.n
 const port = process.env.PORT || "8080";
 app.set("port", port);
 
-
 mongoose.connect(
   process.env.DB_CONNECT ,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
@@ -295,6 +294,7 @@ app.post("/server/uploadContactUs", async (req, res) =>{
 });
 
 
+const port = process.env.PORT || 8080;
 /***** */
 const server = app.listen(port, () => {
   console.log("app listeing on port:8080");
