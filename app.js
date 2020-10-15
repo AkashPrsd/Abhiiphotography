@@ -38,8 +38,8 @@ let app = express()
 app.use(cors());
 app.use(express.json()) 
 app.use("/myimages", express.static("attach"))
-app.use(express.static(path.join(__dirname, 'dist/photogallery')))
-
+app.use(express.static(path.join(__dirname, 'dist/photogallery', 'index.html')))
+res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 
 
 /*app.get("/server/getuploadImg", function(req, res) {
