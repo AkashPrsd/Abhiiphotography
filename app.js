@@ -46,6 +46,7 @@ app.get('**', (req, res) =>{
 
 
    const port = process.env.PORT || 8080;
+   const server = process.env.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
   
    
  app.listen(port, () => {
