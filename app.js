@@ -46,7 +46,6 @@ app.get('**', (req, res) =>{
 
 
     port = process.env.PORT || "3000";
-    server = process.env.MONGODB_URI || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
   
   
    
