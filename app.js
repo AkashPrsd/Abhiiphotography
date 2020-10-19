@@ -22,7 +22,7 @@ let upload = multer({ storage: storage }).single("Image"); //Field name and max 
 
 
 mongoose.connect(
-  process.env.DB_CONNECT ,
+  process.env.MONGODB_URI ,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
   ()=> console.log('connected to db'));
 
@@ -45,8 +45,8 @@ app.get('**', (req, res) =>{
    });//short method
 
 
-   const port = process.env.PORT || 8080;
-   const server = process.env.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
+    port = process.env.PORT || "8080";
+    server = process.env.MONGODB_URI || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
   
    
  app.listen(port, () => {
