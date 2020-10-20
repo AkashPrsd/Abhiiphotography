@@ -20,7 +20,6 @@ let storage= multer.diskStorage({
 let upload = multer({ storage: storage }).single("Image"); //Field name and max count
 
 
-
 mongoose.Promise = global.Promise;
 
 mongoose.connect(
