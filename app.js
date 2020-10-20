@@ -4,7 +4,7 @@ const cors = require("cors");
 const path = require("path");
 const multer = require("multer");
 const dotenv = require("dotenv");
-
+const dbConfig = require('./database/db');
 
 let DIR = './attach';
 dotenv.config();
@@ -23,7 +23,7 @@ let upload = multer({ storage: storage }).single("Image"); //Field name and max 
 mongoose.Promise = global.Promise;
 
 mongoose.connect(
-  process.env.DB_CONNECT,
+  dbConfig.db,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
   ()=> console.log('connected to db'));
 
