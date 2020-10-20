@@ -20,33 +20,29 @@ let storage= multer.diskStorage({
 let upload = multer({ storage: storage }).single("Image"); //Field name and max count
 
 
-const mongoURI = process.env.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
+var mongoURI = process.env.DB_CONNECT || 'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority';
+
+mongoose.Promise = global.Promise;
 
 mongoose.connect(
-  'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority',
+  mongoURI,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
   ()=> console.log('connected to db'));
 
 // Import models
-let imgModel = require("./model/image");
-let contactModel= require("./model/ContactInfo");
-const { Server } = require("http");
+const imgModel = require("./model/image");
+const contactModel= require("./model/ContactInfo");
 
 //const bodyParser = require("body-parser");
 
 // Middlewares
 let app = express()
 app.use(cors());
-app.use(express.json()) 
+app.use(express.json())
+
 app.use("/myimages", express.static("attach"));
-
-app.use(express.static(path.join(__dirname, './attach')));
-app.use('/', express.static(path.join(__dirname, './attach')));
-
-app.get('*', (req, res) =>{
-     res.sendFile(path.join(__dirname, './attach/index.html'));
-   });//short method
-
+app.use(express.static(path.join(__dirname, './dist/photogallery')));
+app.use('/', express.static(path.join(__dirname, './dist/photogallery')));
 /*app.get("/server/getuploadImg", function(req, res) {
   imgModel.find({}, function(err, data) {
     if (err) throw err;
@@ -60,9 +56,10 @@ app.get('*', (req, res) =>{
    });//short method*/
 
 
-   app.get("*", async (req, res) =>{
-       res.sendFile(path.join(express.static("attach")));
-     });//short method
+   app.get('**', (req, res) =>{
+    res.sendFile(path.join(__dirname, './dist/photogallery/index.html'));
+  });//short method
+
 
 
 app.get("/server/getuploadImg", async (req, res) =>{
@@ -297,10 +294,10 @@ app.post("/server/uploadContactUs", async (req, res) =>{
   }
 });
 
-const PORT = process.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 
-app.listen(PORT, () => {
-  console.log("app listeing on port:", PORT);
+const server = app.listen(port, () => {
+  console.log("app listeing on port:", port);
 })  
 
 /***** */
