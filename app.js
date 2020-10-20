@@ -21,10 +21,8 @@ let storage= multer.diskStorage({
 let upload = multer({ storage: storage }).single("Image"); //Field name and max count
 
 
-mongoose.Promise = global.Promise;
-
 mongoose.connect(
-  dbConfig.db,
+  process.env.DB_CONNECT,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
   ()=> console.log('connected to db'));
 
@@ -304,3 +302,7 @@ app.listen(port, () => {
 //git commit -m 'abhiiphotography'
 //git push heroku master
 //heroku open
+
+
+
+
