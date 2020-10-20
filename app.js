@@ -33,6 +33,7 @@ const contactModel= require("./model/ContactInfo");
 
 //const bodyParser = require("body-parser");
 
+
 // Middlewares
 let app = express()
 app.use(cors());
@@ -52,7 +53,11 @@ app.use('/', express.static(path.join(__dirname, './attach')));
   const data = await imgModel.find();
      res.send({ data: data });
    });//short method*/
+   const PORT = process.env.PORT || 8080;
 
+   app.listen(PORT, () => {
+     console.log("app listeing on port:", PORT);
+   })  
 
    app.get('**', (req, res) =>{
     res.sendFile(path.join(__dirname, './attach/index.html'));
@@ -291,13 +296,6 @@ app.post("/server/uploadContactUs", async (req, res) =>{
     res.status(400).send(error);
   }
 });
-
-const port = process.env.PORT || 8080;
-
-app.listen(port, () => {
-  console.log("app listeing on port:", port);
-})  
-
 /***** */
 // git add .
 //git commit -m 'abhiiphotography'
