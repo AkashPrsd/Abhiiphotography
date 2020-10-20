@@ -5,6 +5,7 @@ const path = require("path");
 const multer = require("multer");
 const dotenv = require("dotenv");
 const dbConfig = require('./database/db');
+const port = process.env.PORT || 8080;
 
 let DIR = './attach';
 dotenv.config();
@@ -291,7 +292,7 @@ app.post("/server/uploadContactUs", async (req, res) =>{
   }
 });
 
-const port = process.env.PORT || 8080;
+
 
 app.listen(port, () => {
    console.log("app listeing on port:", port);
