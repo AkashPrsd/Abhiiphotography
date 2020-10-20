@@ -53,12 +53,6 @@ app.use('/', express.static(path.join(__dirname, './dist/photogallery')));
   const data = await imgModel.find();
      res.send({ data: data });
    });//short method*/
-   const port = process.env.PORT || 8080;
-
-  app.listen(port, () => {
-     console.log("app listeing on port:", port);
-   })  
-
    app.get('**', (req, res) =>{
     res.sendFile(path.join(__dirname, './dist/photogallery/index.html'));
   });//short method
@@ -296,6 +290,14 @@ app.post("/server/uploadContactUs", async (req, res) =>{
     res.status(400).send(error);
   }
 });
+
+const port = process.env.PORT || 8080;
+
+app.listen(port, () => {
+   console.log("app listeing on port:", port);
+ })  
+
+ 
 /***** */
 // git add .
 //git commit -m 'abhiiphotography'
