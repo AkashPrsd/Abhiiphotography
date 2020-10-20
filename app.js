@@ -37,11 +37,11 @@ let app = express()
 app.use(cors());
 app.use(express.json()) 
 app.use("/myimages", express.static("attach"))
-app.use(express.static(path.join(__dirname, 'attach')));
-app.use('/', express.static(path.join(__dirname, 'attach')));
+app.use(express.static(path.join(__dirname, './attach')));
+app.use('/', express.static(path.join(__dirname, './attach')));
 
 app.get('*', (req, res) =>{
-     res.sendFile(path.join(__dirname, 'attach/index.html'));
+     res.sendFile(path.join(__dirname, './attach/index.html'));
    });//short method
 
 /*app.get("/server/getuploadImg", function(req, res) {
@@ -290,7 +290,7 @@ app.post("/server/uploadContactUs", async (req, res) =>{
 
 const PORT = process.env.PORT || 8080;
 
-app.listen(8080, () => {
+app.listen(PORT, () => {
   console.log("app listeing on port:", PORT);
 })  
 
