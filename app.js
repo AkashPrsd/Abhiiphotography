@@ -70,7 +70,7 @@ app.get("/server/getuploadImg/:id", async (req, res) =>{
    });//single data get
 
 
-app.put("/server/getuploadImg/:id", function(req, res) {
+   app.put("/server/getuploadImg/:id", function(req, res) {
 
     upload(req, res, async function (err) {
       if (err) {
