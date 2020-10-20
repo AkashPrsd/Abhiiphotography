@@ -22,7 +22,7 @@ let upload = multer({ storage: storage }).single("Image"); //Field name and max 
 
 
 mongoose.connect(
-  process.env.MONGODB_URI,
+  'mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority',
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
   ()=> console.log('connected to db'));
 
