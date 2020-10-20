@@ -22,7 +22,7 @@ let upload = multer({ storage: storage }).single("Image"); //Field name and max 
 
 
 mongoose.connect(
-  "mongodb+srv://demonew:demo123456@cluster0.yw73h.mongodb.net/newproject?retryWrites=true&w=majority" ,
+  process.env.MONGODB_URI,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
   ()=> console.log('connected to db'));
 
@@ -44,14 +44,6 @@ app.get('*', (req, res) =>{
      res.sendFile(path.join(__dirname, 'attach/index.html'));
    });//short method
 
-
-    port = process.env.PORT || "3000";
-  
-  
-   
- app.listen(port, () => {
-     console.log("app listeing on port:", port);
-   })  
 /*app.get("/server/getuploadImg", function(req, res) {
   imgModel.find({}, function(err, data) {
     if (err) throw err;
@@ -295,6 +287,12 @@ app.post("/server/uploadContactUs", async (req, res) =>{
     res.status(400).send(error);
   }
 });
+
+const PORT = process.env.PORT || 8080;
+
+app.listen(8080, () => {
+  console.log("app listeing on port:", PORT);
+})  
 
 /***** */
 // git add .
