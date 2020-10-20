@@ -53,10 +53,10 @@ app.use('/', express.static(path.join(__dirname, './attach')));
   const data = await imgModel.find();
      res.send({ data: data });
    });//short method*/
-   const PORT = process.env.PORT || 8080;
+   const port = process.env.PORT || 8080;
 
-   app.listen(PORT, () => {
-     console.log("app listeing on port:", PORT);
+   const server = app.listen(port, () => {
+     console.log("app listeing on port:", port);
    })  
 
    app.get('**', (req, res) =>{
