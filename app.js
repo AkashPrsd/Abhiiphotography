@@ -25,7 +25,7 @@ var mongoURI = process.env.DB_CONNECT || 'mongodb+srv://demonew:demo123456@clust
 mongoose.Promise = global.Promise;
 
 mongoose.connect(
-  mongoURI,
+  process.env.DB_CONNECT,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
   ()=> console.log('connected to db'));
 
