@@ -36,7 +36,8 @@ let contactModel= require("./model/ContactInfo");
 let app = express()
 app.use(cors());
 app.use(express.json()) 
-app.use("/myimages", express.static("attach"))
+app.use("/myimages", express.static("attach"));
+
 app.use(express.static(path.join(__dirname, './attach')));
 app.use('/', express.static(path.join(__dirname, './attach')));
 
@@ -55,6 +56,12 @@ app.get('*', (req, res) =>{
   const data = await imgModel.find();
      res.send({ data: data });
    });//short method*/
+
+
+   app.get("*", async (req, res) =>{
+       res.sendFile(path.join(express.static("attach")));
+     });//short method
+
 
 app.get("/server/getuploadImg", async (req, res) =>{
   const data = await imgModel.find();
@@ -290,7 +297,7 @@ app.post("/server/uploadContactUs", async (req, res) =>{
 
 const PORT = process.env.PORT || 8080;
 
-app.listen(8080, () => {
+app.listen(PORT, () => {
   console.log("app listeing on port:", PORT);
 })  
 
