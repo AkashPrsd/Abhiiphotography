@@ -5,7 +5,6 @@ const path = require("path");
 const multer = require("multer");
 const dotenv = require("dotenv");
 const dbConfig = require('./database/db');
-const port = process.env.PORT || 8080;
 
 let DIR = './attach';
 dotenv.config();
@@ -21,8 +20,10 @@ let storage= multer.diskStorage({
 let upload = multer({ storage: storage }).single("Image"); //Field name and max count
 
 
+mongoose.Promise = global.Promise;
+
 mongoose.connect(
-  process.env.DB_CONNECT,
+  dbConfig.db,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
   ()=> console.log('connected to db'));
 
@@ -290,7 +291,7 @@ app.post("/server/uploadContactUs", async (req, res) =>{
   }
 });
 
-
+const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
    console.log("app listeing on port:", port);
@@ -302,7 +303,3 @@ app.listen(port, () => {
 //git commit -m 'abhiiphotography'
 //git push heroku master
 //heroku open
-
-
-
-
