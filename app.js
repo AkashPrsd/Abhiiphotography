@@ -20,8 +20,6 @@ let storage= multer.diskStorage({
 let upload = multer({ storage: storage }).single("Image"); //Field name and max count
 
 
-mongoose.Promise = global.Promise;
-
 mongoose.connect(
   dbConfig.db,
   { useNewUrlParser: true, useUnifiedTopology: true,   useFindAndModify: false, },
@@ -40,8 +38,12 @@ app.use(cors());
 app.use(express.json())
 
 app.use("/myimages", express.static("attach"));
-app.use(express.static(path.join(__dirname, './dist/photogallery')));
-app.use('/', express.static(path.join(__dirname, './dist/photogallery')));
+app.use(express.static(path.join(__dirname, 'attach')));
+app.use('/', express.static(path.join(__dirname, 'attach')));
+app.use('/home', express.static(path.join(__dirname, 'attach')));
+app.use('/portraits', express.static(path.join(__dirname, 'attach')));
+app.use('/fashion', express.static(path.join(__dirname, 'attach')));
+
 /*app.get("/server/getuploadImg", function(req, res) {
   imgModel.find({}, function(err, data) {
     if (err) throw err;
@@ -53,8 +55,8 @@ app.use('/', express.static(path.join(__dirname, './dist/photogallery')));
   const data = await imgModel.find();
      res.send({ data: data });
    });//short method*/
-   app.get('**', (req, res) =>{
-    res.sendFile(path.join(__dirname, './dist/photogallery/index.html'));
+   app.get('*', (req, res) =>{
+    res.sendFile(path.join(__dirname, 'attach'));
   });//short method
 
 
